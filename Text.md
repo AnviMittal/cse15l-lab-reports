@@ -25,14 +25,17 @@ She also explains the negative aspects of social media
 3. Searchability. My mother would've loved to scream search into the air and figure out where I'd run off with friends. She couldn't; I'm quite thankful. But with social media, it's quite easy to track someone down or to find someone as a result of searching for content.
 4. Scalability. Social media scales things in new ways.
 
+
+## End of credible information
+
 `add more info here`
 
-...
+```
 #
 add 
 more
 authors
-...
+```
 
 Horizontal Rule:
 _ _ _
