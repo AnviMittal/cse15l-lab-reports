@@ -36,6 +36,5 @@ more
 authors
 ```
 
-Horizontal Rule:<br>
-___
+_ _ _
 
