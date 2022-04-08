@@ -27,12 +27,12 @@ She also explains the negative aspects of social media
 
 `add more info here`
 
-...
+```
 #
 add 
 more
 authors
-...
+```
 
 Horizontal Rule:
 _ _ _
