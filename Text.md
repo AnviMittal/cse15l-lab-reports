@@ -7,7 +7,7 @@ Read the following article to know more: [Social media: good or bad](https://www
 
 ![Image](https://cs.brown.edu/media/filer_public/b0/7c/b07c9214-74e9-4cc6-ae34-70ba5871b876/danah.jpg)
 
-danah boyd is one of the principle researcher on social media.
+danah boyd is one of the principle researchers on social media.
 
 
 She says that 
