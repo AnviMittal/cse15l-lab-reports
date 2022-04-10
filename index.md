@@ -1,1 +1,2 @@
-Hi, this is the first file I have created.
+1. [Lab Report 1](lab-report-1-week-2.html)
+
