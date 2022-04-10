@@ -1,1 +1,36 @@
+# **Lab Report 1**
+## *Anvi Mittal*
+
+[Home](index.html)
+<br />
+<br />
+**This lab report is a tutorial on how to remotely connect to a server i.e how to log into a course-specific account on ieng6.**
+
+Please follow the steps below:
+
+1. **Installing VS Code** <br />
+Go to the [Visual Studio Code website](https://code.visualstudio.com/) and follow the
+instructions to download and install it on your computer. Once it is installed it must look something like this:
+
+![Image](vs_code.png)
+
+2. **Remotely Connecting** <br />
+Open a terminal in VS Code and use the 'ssh' command followed by your account name to connect to the server. The command should look something like : ssh cs15lsp22ava@ieng6.usd.edu (Replace ava with the letters in your course specific account) If you're connecting to the server for the first time, you will get a message asking if you want to continue connecting; reply with a yes. Now, your account is connected to the server. It should look something like this: 
+![Image](remote_connect.png)
+
+3. **Trying Some Commands**
+Try running some commands to see what may happen, like-
+* `cd` : change directory
+* `ls`: list files
+* `cat /home/linux/ieng6/cs15lsp22/public/hello.txt` : creates a new text file
+* `mkdir` : makes a directory
+* `pwd` : prints working directory
+
+4. **Moving Files with `scp`** <br />
+In order to copy a file from your computer to a remote computer, we use the command `scp`. This command will always be run from your computer(client). Log out of `ieng6` by running the command `exit` or using `Ctrl+D`. Create a new java file on VS Code and save it. Use the following command to copy the file: scp /name of the file/ cs15lsp22ava@ieng6.usd.edu:~/ . You will be prompted for a password as usual. Now log into ieng6 and use the `ls` command. You should see the new java file copied here: ![Image](scp.png)
+(*In this case, WhereAmI.java is the file to be copied*)
+
+5. 
+
+
 
