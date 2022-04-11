@@ -15,7 +15,11 @@ instructions to download and install it on your computer. Once it is installed i
 ![Image](vs_code.png)
 
 2. **Remotely Connecting** <br />
-Open a terminal in VS Code and use the 'ssh' command followed by your account name to connect to the server. The command should look something like : ssh cs15lsp22ava@ieng6.usd.edu (Replace ava with the letters in your course specific account) If you're connecting to the server for the first time, you will get a message asking if you want to continue connecting; reply with a yes. Now, your account is connected to the server. It should look something like this: 
+Open a terminal in VS Code and use the `ssh` command followed by your account name to connect to the server. The command should look something like : <br />
+`ssh cs15lsp22ava@ieng6.usd.edu` <br />
+ * Note : Replace ava with the letters in your course specific account <br />
+
+     If you're connecting to the server for the first time, you will get a message asking if you want to continue connecting; reply with a yes. Then enter your password. Now, your account is connected to the server and the final setup should look something like this: 
 ![Image](remote_connect.png)
 
 3. **Trying Some Commands**
