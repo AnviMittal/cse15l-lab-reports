@@ -52,5 +52,8 @@ To optimize your commands, you can:
 run it on the remote server.
 * You can use semicolons to run multiple commands on the same line
 
+For example-
+![Image](optimize.png)
+
 
 
