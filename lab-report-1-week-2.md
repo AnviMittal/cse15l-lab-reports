@@ -41,7 +41,7 @@ You will be prompted for a password as usual. Now log into ieng6 and use the `ls
 
 5. **Setting an SSH Key** 
 Every time we log into `ieng6` or use `scp`, we are required to enter our password which is time-consuming. In order to avoid this we can use the *ssh keygen* program. Run `ssh-keygen` command on your computer which creates a pair of files called the public key and private key (id_rsa.pub, id_rsa). Then log on to the server and create a directory called .ssh using `mkdir`. Then log off and type the following command (using your account details) : <br />
-`scp /Users/anvimittal/.ssh/id_rsa.pub`
+`scp /Users/anvimittal/.ssh/id_rsa.pub`<br />
 `cs15lsp22ava@ieng6.ucsd.edu:~/.ssh/authorized_keys` <br />
 Your ssh keygen is now set up. You do not need to use your password anymore. Example of logging in without your password: 
 
