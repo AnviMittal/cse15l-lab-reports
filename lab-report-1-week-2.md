@@ -35,8 +35,8 @@ For example-
 ![Image](commands.png)
 
 4. **Moving Files with `scp`** <br />
-In order to copy a file from your computer to a remote computer, we use the command `scp`. This command will always be run from your computer(client). Log out of `ieng6` by running the command `exit` or using `Ctrl+D`. Create a new java file on VS Code and save it. Use the following command to copy the file: scp /name of the file/ cs15lsp22ava@ieng6.usd.edu:~/ . You will be prompted for a password as usual. Now log into ieng6 and use the `ls` command. You should see the new java file copied here: ![Image](scp.png)
-(*In this case, WhereAmI.java is the file to be copied*)
+In order to copy a file from your computer to a remote computer, we use the command `scp`. This command will always be run from your computer (client). Log out of `ieng6` by running the command `exit` or using `Ctrl+D`. Create a new java file on VS Code and save it. I have created a file called *WhereAmI.java*. Make sure to use the `javac` and `java` commands to ensure that it runs as it is supposed to. Use the following command to copy the file: <br />
+`scp WhereAmI.java cs15lsp22ava@ieng6.usd.edu:~/` You will be prompted for a password as usual. Now log into ieng6 and use the `ls` command. You should see the new java file copied here: ![Image](scp.png)
 
 5. **Setting an SSH Key** 
 Every time we log into `ieng6` or use `scp`, we are required to enter our password which is time-consuming. In order to avoid this we can use the *ssh keygen* program. Run `ssh-keygen` command on your computer which creates a pair of files called the public key and private key (id_rsa.pub, id_rsa). Then log on to the server and create a directory called .ssh using `mkdir`. Then log off and type the following command (using your account details) : <br />
