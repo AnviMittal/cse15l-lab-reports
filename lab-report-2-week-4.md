@@ -42,7 +42,7 @@ The bug in this code caused images to be treated as links. The symptom of the bu
 
 Fixes the issue of no closing parenthesis at the end of a link
 
-Gihub Code Change
+Gihub Code Change <br />
 ![Image](fix3.png)
 
 [Failure Inducing Input](https://github.com/AnviMittal/markdown-parser/blob/main/test-file3.md)
