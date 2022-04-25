@@ -24,10 +24,9 @@ The bug in the code caused files with blank lines at the end of the file (failur
 **Code Change 2**
 
 
-Github Code Change
-
 Fixes the issue of images being treated as links
 
+Github Code Change
 ![Image](fix2.png)
 
 
@@ -40,9 +39,10 @@ The bug in this code caused images to be treated as links. The symptom of the bu
 
 **Code Change 3**
 
-Gihub Code Change
 
 Fixes the issue of no closing parenthesis at the end of a link
+
+Gihub Code Change
 ![Image](fix3.png)
 
 [Failure Inducing Input](https://github.com/AnviMittal/markdown-parser/blob/main/test-file3.md)
