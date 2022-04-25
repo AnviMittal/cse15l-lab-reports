@@ -19,7 +19,7 @@ Github Code Change
 Symptom
 ![Image](symptom1.png)
 
-The bug in the code caused files with empty lines at the end of the document (failure inducing inputs) to fail when run with MarkdownParse. The symptom of the bug was an infinite loop. One can see how currentIndex is printed without the program terminating in the above picture. The bug was caused by the absence of a break statement in the while loop in case another closed bracket could not be found. 
+The bug in the code caused files with blank lines at the end of the file (failure inducing inputs) to fail when run with MarkdownParse. This resulted in a symptom of an infinite loop as shown in the above picture where currentIndex is printed without the program terminating. The bug was caused by the absence of a break statement in the while loop when a closed bracket couldn't be found. 
 
 **Code Change 2**
 
