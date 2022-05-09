@@ -35,3 +35,5 @@ It should look something like-
 ![Image](github.png)
 
 **Copying whole directories with `scp-r`**
+
+We can use the command `scp` to only copy one file. If we want to copy a whole directory of files, it becomes easier when we use the command `scp-r`. 
