@@ -24,3 +24,11 @@ By doing this, you can login into `ssh` by simply using the command `ssh ieng6`.
 To copy a file from your laptop to a remote server, we can use the command `scp` and instead of typing out the entire username, all we need to do is use `ieng6` and the file will be copied. 
 For example (I have used `scp` to copy the file `Text.md`) -
 ![Image](scp.png)
+
+**Setting up Github Access from `ieng6`**
+
+In order to set up github access from the command line, we need to set up a token-based login mechanism like `SSH Keys`. Follow this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+to be able to use commands like `git push` directly from the command line. 
+
+It should look something like-
+![Image](github.png)
