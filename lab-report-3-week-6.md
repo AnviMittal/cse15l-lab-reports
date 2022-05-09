@@ -33,3 +33,5 @@ main` after committing to push your changes to Githubfrom the command line.
 
 It should look something like-
 ![Image](github.png)
+
+**Copying whole directories with `scp-r`**
