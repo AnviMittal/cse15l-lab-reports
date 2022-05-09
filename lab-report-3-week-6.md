@@ -36,6 +36,6 @@ It should look something like-
 
 **Copying whole directories with `scp-r`**
 
-We can use the command `scp` to only copy one file. If we want to copy a whole directory of files, it becomes easier when we use the command `scp-r`. To use `scp-r`: Log into the terminal of the directory you want to copy (I am using the directory "markdown-parser") and use the command `scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parser` to copy the entire directory. It will look something like - 
+We can use the command `scp` to only copy one file. If we want to copy a whole directory of files, it becomes easier when we use the command `scp-r`. To use `scp-r`: Log into the terminal of the directory you want to copy (I am using my personal username and the directory "markdown-parser") and use the command `scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parser` to copy the entire directory. It will look something like - 
 ![Image](mark1.png)
 ![Image](mark2.png)
