@@ -22,7 +22,7 @@ By doing this, you can login into `ssh` by simply using the command `ssh ieng6`.
 ![Image](ssh_ieng6.png)
 
 To copy a file from your laptop to a remote server, we can use the command `scp` and instead of typing out the entire username, all we need to do is use `ieng6` and the file will be copied. 
-For example (I have used `scp` to copy the file `Text.md`) -
+For example (I have used `scp` to copy the file "Text.md" ) -
 ![Image](scp.png)
 
 **Setting up Github Access from `ieng6`**
@@ -36,4 +36,6 @@ It should look something like-
 
 **Copying whole directories with `scp-r`**
 
-We can use the command `scp` to only copy one file. If we want to copy a whole directory of files, it becomes easier when we use the command `scp-r`. 
+We can use the command `scp` to only copy one file. If we want to copy a whole directory of files, it becomes easier when we use the command `scp-r`. To use `scp-r`: Log into the terminal of the directory you want to copy (I am using the directory "markdown-parser") and use the command `scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parser` to copy the entire directory. It will look something like - 
+![Image](mark1.png)
+![Image](mark2.png)
