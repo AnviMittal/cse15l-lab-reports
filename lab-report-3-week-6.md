@@ -28,7 +28,8 @@ For example (I have used `scp` to copy the file `Text.md`) -
 **Setting up Github Access from `ieng6`**
 
 In order to set up github access from the command line, we need to set up a token-based login mechanism like `SSH Keys`. Follow this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-to be able to use commands like `git push` directly from the command line. 
+to be able to use commands like `git push` directly from the command line. You’ll know you’ve succeeded whenyou can use `git push origin
+main` after committing to push your changes to Githubfrom the command line.
 
 It should look something like-
 ![Image](github.png)
