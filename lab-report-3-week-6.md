@@ -21,6 +21,6 @@ User cs15lsp22ava (use your own username)
 By doing this, you can login into `ssh` by simply using the command `ssh ieng6`. For example-
 ![Image](ssh_ieng6.png)
 
-To copy a file from your laptop to a remote server, we can use the command `scp` and instead of typing out the entire username, all we need to do is use `ieng6` and the file will be copied. 
+To copy a file from your laptop to a remote server, we can use the command `scp` and instead of typing out the entire username, all we need to do is use `ieng6` and the file will be copied. (I have used `scp` to copy the file `Text.md`)
 For example-
 ![Image](scp.png)
