@@ -27,12 +27,20 @@ For example (I have used `scp` to copy the file "Text.md" ) -
 
 **Setting up Github Access from `ieng6`**
 
+Public key on Github:
+![Image](public.png)
+
+Private (id_ed25519) and public (id_ed25519.pub) keys on ieng6 server:
+![Image](private.png)
+
 In order to set up github access from the command line, we need to set up a token-based login mechanism like `SSH Keys`. Follow this [tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 to be able to use commands like `git push` directly from the command line. You’ll know you’ve succeeded whenyou can use `git push origin
 main` after committing to push your changes to Github from the command line.
 
 It should look something like-
 ![Image](github.png)
+
+[The commit](https://github.com/AnviMittal/cse15l-lab-reports/commit/699c580f37b44dedf7fbc510587851047cee13e9)
 
 **Copying whole directories with `scp-r`**
 
