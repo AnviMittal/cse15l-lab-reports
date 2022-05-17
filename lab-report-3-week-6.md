@@ -52,6 +52,7 @@ We can see that the directory has been copied below:
 ![Image](proof.png)
 
 Running some tests on the repository like `make test`:
+
 ![Image](runningtests.png)
 
 Now, to make our work easier, I will try and combine commands like below:
