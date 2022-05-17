@@ -44,6 +44,22 @@ It should look something like-
 
 **Copying whole directories with `scp-r`**
 
+Copying markdown-parse directory to ieng6
+account:
+![Image](markdown.png)
+
+We can see that the directory has been copied below:
+![Image](proof.png)
+
+Running some tests on the repository like `make test`:
+![Image](runningtests.png)
+
+Now, to make our work easier, I will try and combine commands like below:
+![Image](one_line.png)
+
+This gives us the same result as the previous screenshots but in lesser time and with lesser effort. 
+![Image](abc.png)
+
 We can use the command `scp` to only copy one file. If we want to copy a whole directory of files, it becomes easier when we use the command `scp-r`. To use `scp-r`: Log into the terminal of the directory you want to copy (I am using my personal username and the directory "markdown-parser") and use the command `scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parser` to copy the entire directory. It will look something like - 
 ![Image](mark1.png)
 ![Image](mark2.png)
