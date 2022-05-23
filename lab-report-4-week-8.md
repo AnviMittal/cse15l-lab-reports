@@ -7,7 +7,8 @@
 
 ***
 
-[My markdown-parser repository](https://github.com/AnviMittal/markdown-parser)
+[My markdown-parser repository](https://github.com/AnviMittal/markdown-parser) <br />
+
 [The markdown-parser reviewed](https://github.com/Steven-Hsu1/markdown-parser)
 
 Junit tests created for the snippets provided:
