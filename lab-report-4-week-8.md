@@ -20,6 +20,7 @@ Tests failed on my markdown-paser:
 
 Tests failed on the reviewed markdown-paser:
 ![Image](theyfail.png)
+![Image](theyfail2.png)
 
 What the expected output should have looked like:
 ![Image](output.png)
