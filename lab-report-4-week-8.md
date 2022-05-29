@@ -16,6 +16,7 @@ Junit tests created for the snippets provided:
 
 Tests failed on my markdown-paser:
 ![Image](myfail.png)
+![Image](myfail2.png)
 
 Tests failed on the reviewed markdown-paser:
 ![Image](theyfail.png)
